@@ -21,6 +21,6 @@ static    let github = "Github"
 static    let facebook = "Facebook"
 static    let instagram = "Instagram"
 static    let githubURL = URL(string: "https://github.com/VatanaChhorn")
-static    let faceBookUrl = URL(string: "https://www.facebook.com/vatan4c/")
+static    let faceBookUrl = URL(string: "fb://profile/vatan4c/")
 static    let instagramURL = URL(string: "https://www.instagram.com/vatana.chhorn/") 
 }
