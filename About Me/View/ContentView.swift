@@ -41,21 +41,22 @@ struct ContentView: View {
                 Button(action: {   UIApplication.shared.open(Titles.PersonalInfo.phoneNumberDail!)}) {
                     Rectangle()
                         .fill(Color.white)
-                        .frame(width: 400, height: 50, alignment: .center)
+                        .frame(width: 350, height: 50, alignment: .center)
                         .clipShape(Capsule())
                         .overlay(
                             HStack {
                                 Image(systemName: "phone.fill")
                                 Text(Titles.PersonalInfo.phoneNumber)
                             }    .foregroundColor(.black)
-                    ).padding()
+                        ).padding(.vertical)
+                        .padding(.horizontal, 16)
                     
                 }
                 
                 
                 Rectangle()
                     .fill(Color.white)
-                    .frame(width: 400, height: 50, alignment: .center)
+                    .frame(width: 350, height: 50, alignment: .center)
                     .clipShape(Capsule())
                     .overlay(
                         HStack {
